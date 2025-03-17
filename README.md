@@ -1,6 +1,7 @@
 # 🚀 Orbitron
 
 > **Unravel the Universe, Explore Infinity**
+![orbitron](https://github.com/user-attachments/assets/a85941ea-6964-4e1a-bdb3-b3ef8bf5c523)
 
 Orbitron is a web application for stargazing and orbital tracking. 🪐 It is currently under development as part of my personal portfolio project lineup.
 
