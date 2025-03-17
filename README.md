@@ -32,7 +32,7 @@ From live star charts to satellite tracking and AI-guided stargazing tips, Orbit
 - 🔭 **Event Alerts** – Meteor showers, planetary alignments, eclipses... never miss another cosmic spectacle!  
 - 🎯 **AR Stargazing Mode** *(Future Idea!)* – Overlay constellations directly onto the night sky via your device.
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -44,11 +44,10 @@ From live star charts to satellite tracking and AI-guided stargazing tips, Orbit
   <img src="https://img.shields.io/badge/Framer%20Motion-EF008F?style=for-the-badge&logo=framer&logoColor=white" />
   <img src="https://img.shields.io/badge/Animate.css-FF69B4?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
----
 
 > ⭐ **Please star the repo if you’d like to follow the journey!**
 
----
+
 
 ### 💡 Note
 Feel free to fork or use this as inspiration, but kindly give credit! 🙌
