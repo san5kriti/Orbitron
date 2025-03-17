@@ -4,6 +4,7 @@ import styles from "../styles/about.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faChrome } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Countdown from "./Countdown";
 
 export default function About() {
   const [nasaData, setNasaData] = useState<{ url: string; title: string; explanation: string } | null>(null);
@@ -97,6 +98,8 @@ export default function About() {
 
           {/* ISS TRACKER */}
           <ISSOverheadTracker />
+
+          <Countdown />
 
           {/* SOCIALS */}
           <div className={styles.socialSection}>
