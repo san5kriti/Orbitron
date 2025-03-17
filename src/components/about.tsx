@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
+import ISSOverheadTracker from "./ISSOverheadTracker";
 import styles from "../styles/about.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin, faChrome } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   const [nasaData, setNasaData] = useState<{ url: string; title: string; explanation: string } | null>(null);
@@ -24,7 +28,7 @@ export default function About() {
   return (
     <section id="about" className={styles.aboutSection}>
       <div className={styles.container}>
-        {/* LEFT */}
+        {/* LEFT COLUMN */}
         <div className={styles.leftColumn}>
           <h2 className={styles.header}> About Orbitron</h2>
           <p className={styles.intro}>
@@ -35,7 +39,7 @@ export default function About() {
             for exploring the night sky — blending technology and wonder.
           </p>
 
-          {/* GROUP 1: LIVE DATA */}
+          {/* LIVE DATA */}
           <div className={styles.featureGroup}>
             <span className={styles.badge}>LIVE DATA</span>
             <div className={styles.featureList}>
@@ -51,7 +55,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* GROUP 2: ASSISTANT FEATURES */}
+          {/* ASSISTANT FEATURES */}
           <div className={styles.featureGroup}>
             <span className={styles.badge}>ASSISTANT FEATURES</span>
             <div className={styles.featureList}>
@@ -66,12 +70,11 @@ export default function About() {
               </div>
             </div>
           </div>
-
-
         </div>
 
-        {/* RIGHT */}
+        {/* RIGHT COLUMN */}
         <div className={styles.rightColumn}>
+          {/* NASA APOD */}
           <div className={styles.nasaCardBig}>
             <h3>NASA's Picture of the Day</h3>
             {nasaData ? (
@@ -83,6 +86,8 @@ export default function About() {
               <p>Loading image...</p>
             )}
           </div>
+
+          {/* QUOTE */}
           <div className={styles.quoteSection}>
             <blockquote className={styles.quote}>
               “The cosmos is within us. We are made of star-stuff.”
@@ -90,17 +95,32 @@ export default function About() {
             </blockquote>
           </div>
 
-        </div>
+          {/* ISS TRACKER */}
+          <ISSOverheadTracker />
 
+          {/* SOCIALS */}
+          <div className={styles.socialSection}>
+            <h4>Contact & Socials</h4>
+            <div className={styles.socialLinks}>
+              <a href="https://github.com/san5kriti" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} /> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/sanskritishelke/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+              </a>
+              <a href="https://sanskritishelke.com/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faChrome} /> Website
+              </a>
+              <a href="mailto:sanskritishelke.r@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} /> Email
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* FOOTER */}
       <footer className={styles.footer}>
-        <div className={styles.socials}>
-          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-          <a href="https://github.com" target="_blank">GitHub</a>
-          <a href="https://twitter.com" target="_blank">Twitter</a>
-        </div>
         <p>© 2025 Sanskriti Shelke. All rights reserved.</p>
       </footer>
     </section>

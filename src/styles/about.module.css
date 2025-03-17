@@ -6,45 +6,41 @@
 
 .container {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* LEFT COLUMN */
 .leftColumn {
   flex: 1;
-  min-width: 300px;
+  min-width: 320px;
 }
 
 .header {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-family: 'Space Grotesk', sans-serif;
   margin-bottom: 1rem;
   letter-spacing: 0.05em;
 }
 
 .intro {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin-bottom: 2rem;
-  line-height: 1.6;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.85);
-}
-
-/* NEW FEATURE GROUP SECTION */
-.featureGroup {
-  margin-bottom: 2.5rem;
 }
 
 /* BADGES */
 .badge {
   display: inline-block;
-  padding: 0.3rem 0.75rem;
-  background: rgba(255, 255, 255, 0.1);
+  padding: 0.35rem 0.9rem;
+  background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-radius: 20px;
+  letter-spacing: 0.07em;
+  border-radius: 999px;
   font-weight: 600;
   margin-bottom: 1rem;
   font-family: 'Orbitron', sans-serif;
@@ -58,128 +54,89 @@
 }
 
 .featureCard {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.04);
   padding: 1rem 1.2rem;
   border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 10px;
-  transition: all 0.3s ease;
+  border-radius: 12px;
+  transition: all 0.4s ease;
   display: flex;
   flex-direction: column;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .featureCard:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.07);
   transform: translateY(-4px);
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 14px rgba(255, 255, 255, 0.15);
 }
 
 .featureCard strong {
-  margin-top: 0.2rem;
   display: inline-block;
+  margin-top: 0.3rem;
+  font-weight: 600;
 }
-
-
 
 /* RIGHT COLUMN */
 .rightColumn {
   flex: 1;
-  min-width: 300px;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
-.nasaCard h3 {
+/* NASA CARD */
+.nasaCardBig h3 {
   font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0.5rem;
 }
 
-.nasaImg {
-  width: 80%;
-  max-width: 250px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 6px;
-  margin-top: 0.5rem;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.05);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.imgTitle {
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.8);
-  margin-top: 0.5rem;
-  font-style: italic;
-}
-
-.spotifyEmbed {
-  margin-top: 1rem;
-}
-
-/* FOOTER */
-.footer {
-  margin-top: 4rem;
-  text-align: center;
-  font-size: 0.9rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 1rem;
-}
-
-.socials a {
-  margin: 0 0.5rem;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
-  transition: color 0.3s ease;
-}
-
-.socials a:hover {
-  color: white;
-}
-/* BIG NASA IMG */
 .nasaImgBig {
   width: 100%;
-  max-width: 450px;
+  max-width: 420px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  display: block;
-  margin: 0.75rem 0 0.5rem auto;
   border-radius: 8px;
-  box-shadow: 0 0 18px rgba(255, 255, 255, 0.25);
+  margin: 0.75rem 0 0.5rem auto;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+  transform: translateX(-80px);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
-  transform: translateX(-100px); /* pushed further left */
 }
 
-
-
-
+.nasaImgBig:hover {
+  transform: translateX(-80px) scale(1.02);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
 
 .imgTitle {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.8);
   font-style: italic;
   margin-top: 0.4rem;
+  text-align: right;
 }
+
+/* QUOTE SECTION */
 .quoteSection {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   width: 100%;
   text-align: center;
 }
 
 .quote {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-style: italic;
   color: rgba(255, 255, 255, 0.85);
   letter-spacing: 0.03em;
   line-height: 1.6;
-  position: relative;
   display: inline-block;
-  transition: all 0.4s ease;
+  position: relative;
 }
 
 .quote:hover {
@@ -190,9 +147,72 @@
 .quote span {
   display: block;
   margin-top: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
+/* SOCIAL SECTION */
+.socialSection {
+  margin-top: auto;
+  text-align: left;
+  align-self: flex-start;
+  width: 100%;
+  max-width: 400px;
+}
+
+.socialSection h4 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+
+.socialLinks {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.socialLinks a {
+  font-family: 'Space Grotesk', sans-serif;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.3s ease;
+  padding: 0.25rem 0;
+  border: none;
+  background: transparent;
+}
+
+.socialLinks a:hover {
+  color: white;
+  transform: translateY(-2px);
+}
+
+.socialLinks svg {
+  font-size: 1.15rem;
+  transition: transform 0.3s ease;
+}
+
+.socialLinks a:hover svg {
+  transform: scale(1.15);
+}
+
+
+/* FOOTER */
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
