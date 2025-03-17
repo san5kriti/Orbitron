@@ -34,15 +34,15 @@
 /* BADGES */
 .badge {
   display: inline-block;
-  padding: 0.35rem 0.9rem;
+  padding: 0.25rem 0.6rem;  /* Reduced padding */
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 0.7rem;
+  font-size: 0.6rem;  /* Reduced font size */
   text-transform: uppercase;
-  letter-spacing: 0.07em;
-  border-radius: 999px;
+  letter-spacing: 0.05em;  /* Adjusted letter spacing */
+  border-radius: 999px;  /* Keep it round */
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;  /* Reduced margin */
   font-family: 'Orbitron', sans-serif;
 }
 
