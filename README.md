@@ -1,27 +1,49 @@
-# 🚀 Orbitron
+<h1 align="center">🌌 <b>ORBITRON</b> 🌌</h1>
+<p align="center"><i>Unravel the Universe, Explore Infinity</i></p>
 
-> **Unravel the Universe, Explore Infinity**
-![orbitron](https://github.com/user-attachments/assets/a85941ea-6964-4e1a-bdb3-b3ef8bf5c523)
-
-Orbitron is a web application for stargazing and orbital tracking. 🪐 It is currently under development as part of my personal portfolio project lineup.
-
----
-
-## 📌 Status
-🚧 **In Progress**
-
-## ✨ What’s coming:
-- Orbital visualization tools 🌌
-- Live star maps 🔭
-- Celestial body tracking 📡
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a85941ea-6964-4e1a-bdb3-b3ef8bf5c523" alt="orbitron-banner" width="600"/>
+</p>
 
 ---
 
-## 🔗 About Me
-This is one of the many projects I’m building as part of my passion for space tech and web development.  
-Feel free to check out my main portfolio here:  
-👉 **[sanskritishelke.com](https://sanskritishelke.com)**
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-In%20Progress-blueviolet?style=for-the-badge&logo=apachespark" />
+  <img src="https://img.shields.io/badge/AI%20powered-%F0%9F%A4%96%20YES-blue?style=for-the-badge&logo=skynet" />
+  <img src="https://img.shields.io/badge/Made%20with-Love-%23ce86d9?style=for-the-badge&logo=heart" />
+</p>
 
+---
+
+## 🌠 About Orbitron
+
+Orbitron is a **next-gen AI-powered stargazing & orbital tracking app** that bridges science with aesthetics.  
+From live star charts to satellite tracking and AI-guided stargazing tips, Orbitron is your personal **cosmic companion** 🚀.
+
+> 💡 **Mission:** Make the universe accessible, understandable & interactive for all sky-watchers, from hobbyists to researchers.
+
+---
+
+## ✨ Features Incoming
+
+- 🪐 **Interactive Celestial Map** – Explore stars, planets & constellations in real-time  
+- 🛰 **Satellite + Space Debris Tracker** – Stay updated on orbiting objects around Earth  
+- 🔮 **AI Stargazing Assistant** – Get personalized stargazing recommendations based on your location & weather  
+- 🔭 **Event Alerts** – Meteor showers, planetary alignments, eclipses... never miss another cosmic spectacle!  
+- 🎯 **AR Stargazing Mode** *(Future Idea!)* – Overlay constellations directly onto the night sky via your device.
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer%20Motion-EF008F?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Animate.css-FF69B4?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 ---
 
 > ⭐ **Please star the repo if you’d like to follow the journey!**
