@@ -80,15 +80,7 @@
   display: inline-block;
 }
 
-/* TECH STACK */
-.techStack {
-  margin-top: 2rem;
-}
 
-.techStack h4 {
-  font-family: 'Orbitron', sans-serif;
-  margin-bottom: 0.5rem;
-}
 
 /* RIGHT COLUMN */
 .rightColumn {
@@ -148,3 +140,59 @@
 .socials a:hover {
   color: white;
 }
+/* BIG NASA IMG */
+.nasaImgBig {
+  width: 100%;
+  max-width: 450px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin: 0.75rem 0 0.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform: translateX(-100px); /* pushed further left */
+}
+
+
+
+
+
+.imgTitle {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+.quoteSection {
+  margin-top: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.quote {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  position: relative;
+  display: inline-block;
+  transition: all 0.4s ease;
+}
+
+.quote:hover {
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.quote span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+

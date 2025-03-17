@@ -67,37 +67,31 @@ export default function About() {
             </div>
           </div>
 
-          {/* TECH */}
-          <div className={styles.techStack}>
-            <h4>🛠️ Tech Stack</h4>
-            <p>Designed & developed by Sanskriti Shelke 🚀</p>
-          </div>
+
         </div>
 
         {/* RIGHT */}
         <div className={styles.rightColumn}>
-          <div className={styles.nasaCard}>
+          <div className={styles.nasaCardBig}>
             <h3>NASA's Picture of the Day</h3>
             {nasaData ? (
               <>
-                <img className={styles.nasaImg} src={nasaData.url} alt={nasaData.title} />
+                <img className={styles.nasaImgBig} src={nasaData.url} alt={nasaData.title} />
                 <p className={styles.imgTitle}>{nasaData.title}</p>
               </>
             ) : (
               <p>Loading image...</p>
             )}
           </div>
-          <div className={styles.spotifyEmbed}>
-            <iframe
-              src="https://open.spotify.com/embed/playlist/your-playlist-id"
-              width="100%"
-              height="80"
-              frameBorder="0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
+          <div className={styles.quoteSection}>
+            <blockquote className={styles.quote}>
+              “The cosmos is within us. We are made of star-stuff.”
+              <span>– Carl Sagan ✨</span>
+            </blockquote>
           </div>
+
         </div>
+
       </div>
 
       {/* FOOTER */}
