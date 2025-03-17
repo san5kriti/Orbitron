@@ -67,4 +67,4 @@ From live star charts to satellite tracking and AI-guided stargazing tips, Orbit
 
 ### 💡 Note  
 Feel free to fork or use this as inspiration, but kindly give credit! 🙌
->>>>>>> 677370867b32b818afbe952ea2db1e29deac2376
+
