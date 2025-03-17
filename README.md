@@ -15,7 +15,7 @@
 
 ---
 
-## 🌠 About Orbitron
+## 🌀👩🏼‍🚀 About Orbitron
 
 Orbitron is a **next-gen AI-powered stargazing & orbital tracking app** that bridges science with aesthetics.  
 From live star charts to satellite tracking and AI-guided stargazing tips, Orbitron is your personal **cosmic companion** 🚀.
@@ -24,15 +24,26 @@ From live star charts to satellite tracking and AI-guided stargazing tips, Orbit
 
 ---
 
-## ✨ Features Incoming
+<table>
+  <tr>
+    <td width="150">
+      <img src="https://github.com/user-attachments/assets/cc08c972-ed50-474e-ba05-49e9a0828eef" alt="astro-gif" width="120"/>
+    </td>
+    <td>
+
+### ✨ Features Incoming
 
 - 🪐 **Interactive Celestial Map** – Explore stars, planets & constellations in real-time  
 - 🛰 **Satellite + Space Debris Tracker** – Stay updated on orbiting objects around Earth  
-- 🔮 **AI Stargazing Assistant** – Get personalized stargazing recommendations based on your location & weather  
+- 💫 **AI Stargazing Assistant** – Get personalized stargazing recommendations based on your location & weather  
 - 🔭 **Event Alerts** – Meteor showers, planetary alignments, eclipses... never miss another cosmic spectacle!  
-- 🎯 **AR Stargazing Mode** *(Future Idea!)* – Overlay constellations directly onto the night sky via your device.
+- ☄️ **AR Stargazing Mode** *(Future Idea!)* – Overlay constellations directly onto the night sky via your device.
 
+    </td>
+  </tr>
+</table>
 
+---
 
 ## 🛠️ Tech Stack
 
@@ -45,9 +56,11 @@ From live star charts to satellite tracking and AI-guided stargazing tips, Orbit
   <img src="https://img.shields.io/badge/Animate.css-FF69B4?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
+---
+
 > ⭐ **Please star the repo if you’d like to follow the journey!**
 
+---
 
-
-### 💡 Note
+### 💡 Note  
 Feel free to fork or use this as inspiration, but kindly give credit! 🙌
