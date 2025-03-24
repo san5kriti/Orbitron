@@ -63,7 +63,7 @@ Explore live star charts, track satellites, and receive AI-guided stargazing tip
 ## 🎯 **Deployment** 🌍
 
 Check out the live demo of **Orbitron**:  
-🌐 **[Orbitron Live](https://orbitron-chi.vercel.app/)**
+🌐 **[Orbitron Live](https://orbitronspace.vercel.app)**
 
 
 
