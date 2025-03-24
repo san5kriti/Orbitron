@@ -1,9 +1,9 @@
-# 🌌 **ORBITRON** 🌌
+# 🌌 **ORBITRON** – The AI-Powered Stargazing Companion 🌌
 
-## <p align="center"><i>Unravel the Universe, Explore Infinity</i></p>
+<p align="center"><em>✨ Unravel the Universe, Explore Infinity ✨</em></p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/73d42046-15cc-49b9-b657-ad44bc00861f" alt="orbitron-banner" width="600"/>
+  <img src="https://github.com/user-attachments/assets/73d42046-15cc-49b9-b657-ad44bc00861f" alt="orbitron-banner" width="650"/>
 </p>
 
 ---
@@ -16,36 +16,36 @@
 
 ---
 
-##  **About Orbitron**
+## 🚀 **About Orbitron**
 
-**Orbitron** is a **next-gen AI-powered stargazing & orbital tracking app** that blends **cutting-edge science with cosmic aesthetics**.  
-Explore live star charts, track satellites, and receive AI-guided stargazing tips! 🌠
+**Orbitron** is a **next-gen AI-powered stargazing & orbital tracking platform** designed to blend **science, tech, and cosmic aesthetics**.  
+🌠 Explore **live star charts**, track satellites, and receive **AI-guided stargazing tips** tailored to your location!
 
-> 💡 **Mission:** To make the universe **accessible**, **understandable**, and **interactive** for all sky-watchers, from hobbyists to researchers. 🌌
+> 🌌 **Mission:** Making the universe **accessible**, **understandable**, and **interactive** for all, from hobbyists to space geeks.  
 
 ---
 
-## ✨ **Features Incoming**
+## ✨ **Upcoming Features**
 
 <table align="center">
   <tr>
-    <td width="150">
+    <td width="160" align="center" valign="middle">
       <img src="https://github.com/user-attachments/assets/cc08c972-ed50-474e-ba05-49e9a0828eef" alt="astro-gif" width="120"/>
     </td>
     <td align="left">
-      🌌 **Interactive Celestial Map** – Explore stars, planets & constellations in real-time.  
-      🛰 **Satellite + Space Debris Tracker** – Track active satellites and space debris orbiting Earth.  
-      🛰 **ISS Flyover Notifier** – Know exactly when the ISS will pass overhead.  
-      🔭 **Event Alerts** – Meteor showers, eclipses, and other celestial events.  
-      💫 **AI Stargazing Assistant** – Get tailored stargazing recommendations based on your location & weather.  
-      🌌 **Space News Feed** – Stay updated with the latest in space science & exploration.  
+      🌌 **Interactive Celestial Map** – Real-time star, planet & constellation exploration.  
+      🛰️ **Satellite + Space Debris Tracker** – Monitor active satellites & debris.  
+      🚀 **ISS Flyover Notifier** – Get alerts for visible ISS passes in your sky.  
+      🔭 **Event Alerts** – Meteor showers, eclipses, and more.  
+      🤖 **AI Stargazing Assistant** – AI-powered recommendations based on your weather & location.  
+      🪐 **Space News Feed** – Stay up-to-date on space science & exploration.
     </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ **Tech Stack** 🔧
+## 🛠️ **Tech Stack**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
@@ -58,22 +58,23 @@ Explore live star charts, track satellites, and receive AI-guided stargazing tip
 
 ---
 
+## 🌐 **Live Demo**
 
+🚀 **[Explore Orbitron Live](https://orbitronspace.vercel.app)** and begin your cosmic journey!
 
-## 🎯 **Deployment** 🌍
+---
 
-Check out the live demo of **Orbitron**:  
-🌐 **[Orbitron Live](https://orbitronspace.vercel.app)**
+## 🤝 **Contribute + Credit**
 
+Feel free to fork or draw inspiration from this project — just remember to give credit 🙌.  
+If you use **Orbitron’s assets or concepts**, please link back to:  
+👩‍💻 **Sanskriti Shelke** | [GitHub](https://github.com/san5kriti) | [Website](https://sanskritishelke.com/)
 
+---
 
-## 💡 **Note**
+## ⭐ **Support the Mission**
 
-Feel free to fork or use this project as inspiration, but please remember to give credit where it's due! 🙌
-
-⭐ **Star the repo** to follow Orbitron’s journey and help us explore the cosmos! 🚀
-
-
+If you vibe with **Orbitron**, drop a ⭐ and follow the project to stay updated on new releases and space magic! 🌌🛰️
 
 
 
