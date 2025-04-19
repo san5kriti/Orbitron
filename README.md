@@ -1,4 +1,4 @@
-# 🌌 **ORBITRON** – The AI-Powered Stargazing Companion 🌌
+#  **ORBITRON** – The AI-Powered Stargazing Companion 
 
 <p align="center"><em>🌀 Unravel the Universe, Explore Infinity 🌀</em></p>
 
