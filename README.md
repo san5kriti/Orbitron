@@ -36,7 +36,7 @@ Whether you’re out under the night sky or planning your next stargazing trip, 
 
 ---
 
-## 🚀 **Mission**
+## 🛸 **Mission**
 
 🌌 To make space exploration **accessible, intuitive, and magical**, bridging the gap between **AI-powered tech** and **the wonder of the cosmos.**
 
@@ -103,7 +103,7 @@ For collaborations, custom builds, or any other requests:
 
 ---
 
-## ☕ **Fuel the Spacecraft**
+## 🚀 **Fuel the Spacecraft**
 
 <p align="left">
   <a href="https://www.buymeacoffee.com/yourusername" target="_blank">
