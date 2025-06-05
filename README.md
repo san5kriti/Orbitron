@@ -106,7 +106,7 @@ For collaborations, custom builds, or any other requests:
 ## 🚀 **Fuel the Spacecraft**
 
 <p align="left">
-  <a href="https://www.buymeacoffee.com/yourusername" target="_blank">
+  <a href="https://buymeacoffee.com/san5kriti" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" >
   </a>
 </p>
