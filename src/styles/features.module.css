@@ -1,0 +1,69 @@
+.featuresSection {
+  padding: 4rem 2rem;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  cursor: pointer;
+  position: relative;
+  width: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.arrow {
+  font-size: 1.5rem;
+  color: #e0d5b9; /* that nice buttery beige you used 💅 */
+}
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}

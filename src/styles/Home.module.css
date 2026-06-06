@@ -1,108 +1,286 @@
-/* home.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 .container {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  font-family: 'Orbitron', sans-serif;
+  background: #020408;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .videoBackground {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  opacity: 0.75;
 }
 
 .overlay {
-  position: relative;
+  position: absolute;
+  inset: 0;
   z-index: 2;
-  width: 100%;
-  height: 100%;
+  background: radial-gradient(ellipse at 50% 60%, rgba(10, 30, 80, 0.55) 0%, rgba(2, 4, 8, 0.72) 100%);
+}
+
+.gradientOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background:
+    linear-gradient(to top, rgba(2, 4, 8, 0.95) 0%, transparent 35%),
+    linear-gradient(to bottom, rgba(2, 4, 8, 0.7) 0%, transparent 20%);
+}
+
+.scanline {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.04) 2px,
+    rgba(0, 0, 0, 0.04) 4px
+  );
+  pointer-events: none;
+}
+
+/* NAV */
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  padding: 2rem;
-  color: white;
-  background: rgba(0, 0, 0, 0.4); /* optional: adds slight dark overlay for contrast */
+  align-items: center;
+  padding: 2rem 2.5rem;
 }
 
 .initials {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(232, 237, 245, 0.9);
+  letter-spacing: 0.05em;
 }
 
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navTag {
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  color: rgba(74, 158, 255, 0.7);
+}
+
+.navDivider {
+  width: 24px;
+  height: 0.5px;
+  background: rgba(74, 158, 255, 0.25);
+}
+
+.navCoords {
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  color: rgba(232, 237, 245, 0.2);
+}
+
+/* CENTRE */
 .centerContent {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  padding: 0 2rem;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  color: rgba(74, 158, 255, 0.7);
+  margin: 0 0 1.5rem;
+  animation: fadeUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+.eyebrowDot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #4a9eff;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
 }
 
 .title {
-  font-size: 4rem;
-  font-weight: 900;
-  letter-spacing: 0.1em;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(4rem, 12vw, 9rem);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  color: #e8edf5;
+  margin: 0 0 1rem;
+  line-height: 1;
 }
 
-.subtitle {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  letter-spacing: 0.15em;
+.title span {
+  display: inline-block;
   opacity: 0;
-  transform: translateY(20px);
-  animation: floatIn 2s ease-out forwards;
-  animation-delay: 1s;
+  transform: translateY(30px);
+  animation: letterIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-@keyframes floatIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
+@keyframes letterIn {
+  to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
+.subtitle {
+  font-size: clamp(0.55rem, 1.5vw, 0.8rem);
+  letter-spacing: 0.35em;
+  color: rgba(232, 237, 245, 0.35);
+  margin: 0 0 3rem;
+  opacity: 0;
+  animation: fadeUp 1s ease-out 1s forwards;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* BUTTON */
 .scrollButton {
-  margin-top: 2.5rem;
-  padding: 0.85rem 2.5rem;
-  border: 2px solid rgba(255, 255, 255, 0.8);
   background: transparent;
-  color: rgba(255, 255, 255, 0.9);
-  font-family: 'Orbitron', sans-serif;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  font-weight: 600;
+  border: 0.5px solid rgba(74, 158, 255, 0.4);
+  color: rgba(232, 237, 245, 0.8);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  padding: 0;
   cursor: pointer;
+  opacity: 0;
+  animation: fadeUp 1s ease-out 1.4s forwards;
+  transition: border-color 0.3s, color 0.3s;
   position: relative;
   overflow: hidden;
-  transition: all 0.4s ease;
 }
 
 .scrollButton::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: -75%;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(120deg, rgba(255,255,255,0.3), rgba(255,255,255,0));
-  transform: skewX(-20deg);
-  transition: left 0.5s ease;
+  inset: 0;
+  background: rgba(74, 158, 255, 0.06);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
 }
 
 .scrollButton:hover::before {
-  left: 125%;
+  transform: scaleX(1);
 }
 
 .scrollButton:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 1);
-  transform: translateY(-3px);
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  border-color: rgba(74, 158, 255, 0.8);
+  color: #e8edf5;
+}
+
+.btnInner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.9rem 2.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* BOTTOM BAR */
+.bottomBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.75rem 2.5rem;
+  opacity: 0;
+  animation: fadeUp 1s ease-out 1.8s forwards;
+}
+
+.bottomLeft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.statusDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #4ade80;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.statusText {
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  color: rgba(74, 222, 128, 0.6);
+}
+
+.bottomRight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.scrollHint {
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: rgba(232, 237, 245, 0.2);
+}
+
+.scrollLine {
+  width: 40px;
+  height: 0.5px;
+  background: rgba(232, 237, 245, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.scrollLine::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(74, 158, 255, 0.6);
+  animation: scanRight 2.5s ease-in-out infinite;
+}
+
+@keyframes scanRight {
+  0% { left: -100%; }
+  100% { left: 100%; }
 }
