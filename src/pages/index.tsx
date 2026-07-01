@@ -69,7 +69,7 @@ export default function Home() {
       </div>
 
       <About />
-      <Features />
+      
     </>
   );
 }
