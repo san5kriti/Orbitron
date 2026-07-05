@@ -1,118 +1,67 @@
-#  **ORBITRON** – The AI-Powered Stargazing Companion 
+# ORBITRON
 
-<p align="center"><em>🌀 Unravel the Universe, Explore Infinity 🌀</em></p>
+*An AI-powered astronomy platform — Alpha v0.1*
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/73d42046-15cc-49b9-b657-ad44bc00861f" alt="orbitron-banner" width="650"/>
-</p>
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-blueviolet?style=for-the-badge&logo=apachespark" />
-  <img src="https://img.shields.io/badge/AI%20Powered-%F0%9F%96%96%EF%B8%8F%20YES-0a0a0a?style=for-the-badge&logo=openai" />
-  <img src="https://img.shields.io/badge/Made%20with-Love-%23ce86d9?style=for-the-badge&logo=heart" />
-</p>
+![Status](https://img.shields.io/badge/Status-In%20Progress-blueviolet?style=for-the-badge&logo=apachespark)
+![AI](https://img.shields.io/badge/AI%20Powered-YES-0a0a0a?style=for-the-badge)
+![Stack](https://img.shields.io/badge/Next.js%20%2B%20TypeScript-000000?style=for-the-badge&logo=nextdotjs)
 
 ---
 
-## 🌠 **About Orbitron**
+## Overview
 
-> **"We are star stuff harvesting star light." – Carl Sagan**
+Orbitron is a web application that makes the night sky legible. Real-time satellite tracking, ISS flyover alerts, interactive star charts, and an AI assistant that answers questions about what you're looking at — built for people who look up and need to know exactly what they're seeing.
 
-**Orbitron** is an **AI-powered celestial navigation tool** blending astronomy with cutting-edge tech to guide your journey across the night sky.
-
-🔭 **Visualize constellations, track satellites, and let AI curate your stargazing experience.** Whether you're a sky rookie or a cosmic connoisseur — **Orbitron is your stargazing co-pilot.**
+**[→ Live demo](https://orbitronspace.vercel.app)**
 
 ---
 
-## ✨ **Why Orbitron?**
+## Features
 
-Orbitron was born from a love for both **space and technology**. I wanted to build something that goes beyond static star charts — a tool that makes **stargazing immersive and interactive**, especially for those who crave **a connection to the universe** in their everyday life.
-
-> Orbitron aims to be your personal AI space companion, blending **astronomical data** with **AI insights** to help you uncover the cosmos above, no telescope required. 
-
-Whether you’re out under the night sky or planning your next stargazing trip, **Orbitron** will guide you with AI-curated insights, sky events, and real-time space tracking.
-
----
-
-## 🛸 **Mission**
-
-🌌 To make space exploration **accessible, intuitive, and magical**, bridging the gap between **AI-powered tech** and **the wonder of the cosmos.**
+| Feature | Status |
+|---|---|
+| Interactive celestial map | In development |
+| Real-time satellite tracker | In development |
+| ISS flyover alerts | In development |
+| Sky event notifications | In development |
+| AI stargazing assistant | Live (alpha) |
+| Space news feed | Planned |
 
 ---
 
-## ✨ **Core Features (Coming Soon)**
+## Stack
 
-<div align="left">
-  
-🌌 **Celestial Map** – Real-time interactive star, planet & deep sky charts.  
-🛰️ **Satellite Tracker** – Follow live positions of satellites & orbital debris.  
-🚀 **ISS Alerts** – Never miss a flyover of the International Space Station.  
-🔭 **Sky Event Notifications** – From meteor showers to eclipses, get AI-curated alerts.  
-🤖 **AI Stargazing Assistant** – Tailored skywatching tips based on your **weather + location**.  
-🪐 **Space News Feed** – Stay cosmic with the latest from space science & exploration.
-
-</div>
-
-<p align="right">
-  <img src="https://github.com/user-attachments/assets/cc08c972-ed50-474e-ba05-49e9a0828eef" alt="astro-gif" width="120"/>
-</p>
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 ---
 
-## 🛠️ **Powered by Astro-Tech**
+## Running locally
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer%20Motion-EF008F?style=for-the-badge&logo=framer&logoColor=white" />
- 
-</p>
+git clone https://github.com/san5kriti/Orbitron
+cd orbitronweb
+npm install
+npm run dev
 
----
+Add to `.env.local`:
 
-## 🌐 **[🚀 Explore Orbitron Live](https://orbitronspace.vercel.app)**
-
-🌀Embark on your **AI-guided cosmic adventure** today, the demo is now live! 🌀
+ANTHROPIC_API_KEY=your_key_here
 
 ---
 
-## 👩‍🚀 **About the Author**
+## About
 
-Hey there, I’m **Sanskriti Shelke** — a curious explorer blending **AI + Astronomy + Design**. I'm passionate about creating tools that make the **universe interactive** for dreamers, learners, and night-sky lovers. Orbitron is an AI-powered astronomy web application under development, designed to bridge scientific precision with immersive stargazing. From interactive star charts and real-time satellite tracking to AI-driven stargazing recommendations, Orbitron aims to make the universe accessible, educational, and inspiring. Your personal cosmic companion for exploring the night sky — blending technology and wonder.
+Built by **Sanskriti Shelke** — MSc AI, Durham University. Orbitron sits at the intersection of astronomical data and AI — the goal is a tool that feels less like a textbook and more like a conversation with someone who actually knows the sky.
 
-- ✨ [sanskritishelke.com](https://sanskritishelke.com)  
-- 🪐 [GitHub](https://github.com/san5kriti)  
-- ☄️ [LinkedIn](https://www.linkedin.com/in/sanskritishelke/)
-
-> _Building cosmic tech, one star at a time._
+[Portfolio](https://sanskritishelke.vercel.app) · [GitHub](https://github.com/san5kriti) · [LinkedIn](https://linkedin.com/in/sanskritishelke)
 
 ---
 
-## ❕ **License & Reuse**
+## License
 
-You are welcome to **fork, remix, or adapt Orbitron** for your own cosmic projects 🌠 — but please remember to **credit me**!  
-For collaborations, custom builds, or any other requests:
-
-📧 **Email me at:** `sanskritishelke.r@gmail.com`  
-🛸 Join the discussion 
-🌌 Or connect via [LinkedIn](https://www.linkedin.com/in/sanskritishelke/)
-
----
-
-## 🚀 **Fuel the Spacecraft**
-
-<p align="left">
-  <a href="https://buymeacoffee.com/san5kriti" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" >
-  </a>
-</p>
-
----
-
-<p align="center"><em>🛰️ Stargaze. Learn. Explore. Repeat. 🪐</em></p>
+Fork and adapt freely — credit appreciated.
+Contact: sanskritishelke.r@gmail.com
 
 
