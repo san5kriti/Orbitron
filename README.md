@@ -1,6 +1,6 @@
 # ORBITRON
 
-*An AI-powered astronomy platform — Alpha v0.1*
+*An AI-powered astronomy platform — Alpha v0.1* Still under construction!
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blueviolet?style=for-the-badge&logo=apachespark)
 ![AI](https://img.shields.io/badge/AI%20Powered-YES-0a0a0a?style=for-the-badge)
@@ -45,9 +45,6 @@ cd orbitronweb
 npm install
 npm run dev
 
-Add to `.env.local`:
-
-ANTHROPIC_API_KEY=your_key_here
 
 ---
 
